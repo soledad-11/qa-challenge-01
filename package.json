@@ -1,5 +1,19 @@
 {
-  "dependencies": {
-    "cypress": "^12.10.0"
+  "name": "cypress-challenge",
+  "version": "1.0.0",
+  "description": "Cypress app to test the challenge",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open"
+  },
+  "keywords": [
+    "Cypress",
+    "Test"
+  ],
+  "author": "JP",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.0.0",
+    "cypress-wait-until": "^1.7.2"
   }
 }
