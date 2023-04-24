@@ -2,10 +2,10 @@
 Este challenge consiste en crear una app cypress, crear unos test cases que recorran una pagina web y analizar su comportamiento
 
 El challenge va a estar apuntado a recorrer la pagina de un calendario
- ![CallendarApp](https://calendar-challenge-six.vercel.app/)
+ [CallendarApp](https://calendar-challenge-six.vercel.app/)
 En dicha pagina hay que marcar el Dia de la marmota el dia 2 de Febrero
 
-Para esto hay que instalar ![CallendarApp](https://www.cypress.io/) en una aplicacion nueva y recorrer la pagina dicha en el parrafo anterior
+Para esto hay que instalar [Cypress](https://www.cypress.io/) en una aplicacion nueva y recorrer la pagina dicha en el parrafo anterior
 
 Para que este resuelto correctamente es *necesario* que:
 - Se cree un test case que abra la pagina
