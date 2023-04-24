@@ -26,6 +26,12 @@ Para que este resuelto correctamente es *necesario* que:
 Se va a analizar la arquitectura de la aplicación, los pasos de iteracion y la documentacion del mismo
 
 
+# Información del proyecto base
+
+Este proyecto fue creado usando:
+- Node 16
+- Cypress 12
+
 ## Scripts
 
 Para instalar todas las dependencias necesarias:
