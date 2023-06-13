@@ -12,10 +12,10 @@
     "uuid": "^9.0.0"
   },
   "scripts": {
-    "test": "cypress run --browser chrome ; node cucumber-html-reporter.js",
-    "test:focus": "cypress run --browser chrome -e TAGS=\"@focus\" ; node cucumber-html-reporter.js",
-    "test:ignore-last": "cypress run --browser chrome -e TAGS=\"not @ignoreLast\" ; node cucumber-html-reporter.js",
-    "test:all-browsers": "cypress run --browser chrome ; node cucumber-html-reporter.js ; cypress run --browser firefox ; node cucumber-html-reporter.js ; cypress run --browser edge ; node cucumber-html-reporter.js",
+    "test": "cypress run --browser chrome & node cucumber-html-reporter.js",
+    "test:focus": "cypress run --browser chrome -e TAGS=\"@focus\" & node cucumber-html-reporter.js",
+    "test:ignore-last": "cypress run --browser chrome -e TAGS=\"not @ignoreLast\" & node cucumber-html-reporter.js",
+    "test:all-browsers": "cypress run --browser chrome & node cucumber-html-reporter.js & cypress run --browser firefox & node cucumber-html-reporter.js & cypress run --browser edge & node cucumber-html-reporter.js",
     "debug": "cypress open",
     "debug:focus": "cypress open -e TAGS=\"@focus\"",
     "debug:ignore-last": "cypress open -e TAGS=\"not @ignoreLast\"",
